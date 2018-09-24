@@ -3,7 +3,7 @@
 let isPrime = (num) => {
    let objRet = { isPrime: null, numOp: 0};
 
-   if(num <= 1){
+   if(num <= 2){
       objRet.isPrime = false;
       objRet.numOp = 1;
       return objRet;
